@@ -1,0 +1,42 @@
+/* Section Box Style */
+.info-box {
+  background: var(--white);
+  border: 2px solid var(--primary-color);
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.info-box h3 {
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 5px;
+}
+
+.info-box p {
+  font-size: 1rem;
+  color: var(--text-dark);
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.info-box ul {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+.info-box ul li {
+  font-size: 1rem;
+  color: var(--text-dark);
+  margin: 8px 0;
+  list-style-type: disc;
+}
